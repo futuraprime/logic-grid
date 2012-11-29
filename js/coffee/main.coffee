@@ -1,16 +1,16 @@
 require.config
 	baseUrl : "js"
 	paths :
-		underscore : "libraries/underscore"
-		serenade : 'libraries/serenade'
+		serenade : 'lib/serenade'
+		underscore : 'lib/underscore-min'
 		templates : '../templates'
-		text : 'libraries/text'
+		text : 'lib/text'
 	shim:
 		underscore:
 			exports: '_'
 		serenade:
 			exports: 'Serenade'
 
-require ['app'], (App) ->
+require ['app/app'], (App) ->
 	a = new App()
 
