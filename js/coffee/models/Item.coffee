@@ -1,6 +1,3 @@
-define ['serenade', 'app/models/Link'], (Serenade, Link) ->
+define ['serenade'], (Serenade) ->
 	class Item extends Serenade.Model
 		@property 'name'
-		@hasMany 'links',
-			as : (-> Link)
-			serialize: true

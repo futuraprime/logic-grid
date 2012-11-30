@@ -1,16 +1,16 @@
 {
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
-  "creatorBuild" : "7839",
+  "creatorBuild" : "7978",
   "files" : {
-    "\/js\/lib\/require.js" : {
+    "\/js\/app\/models\/Group.js" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
+      "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/lib\/require.js",
+      "inputAbbreviatedPath" : "\/js\/app\/models\/Group.js",
       "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/models\/Group-ck.js",
       "fileType" : 64
     },
     "\/js\/coffee\/models\/Item.coffee" : {
@@ -25,26 +25,24 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/js\/app\/models\/Group.js" : {
+    "\/index.html" : {
       "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
+      "ignore" : 0,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/models\/Group.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/models\/Group-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/index.html",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 2048
     },
-    "\/js\/app\/app.js" : {
+    "\/js\/app\/views\/SizingView.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/app.js",
+      "inputAbbreviatedPath" : "\/js\/app\/views\/SizingView.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/app-ck.js",
+      "outputAbbreviatedPath" : "\/js\/app\/views\/SizingView-ck.js",
       "fileType" : 64
     },
     "\/js\/coffee\/models\/Group.coffee" : {
@@ -56,6 +54,18 @@
       "checkOutputStyle" : 0,
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Group.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
+    "\/js\/coffee\/app.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/coffee\/app.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/app.js",
       "outputStyle" : 0,
       "fileType" : 32
     },
@@ -71,38 +81,6 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/js\/lib\/underscore-min.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/lib\/underscore-min.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/lib\/underscore-min-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/coffee\/app.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/coffee\/app.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/app.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/index.html" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/index.html",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 2048
-    },
     "\/js\/app\/models\/Item.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -114,6 +92,29 @@
       "outputAbbreviatedPath" : "\/js\/app\/models\/Item-ck.js",
       "fileType" : 64
     },
+    "\/js\/lib\/underscore-min.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/lib\/underscore-min.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/lib\/underscore-min-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/coffee\/controllers\/SizingController.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/coffee\/controllers\/SizingController.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
     "\/js\/app\/models\/Link.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -124,6 +125,29 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Link-ck.js",
       "fileType" : 64
+    },
+    "\/js\/lib\/require.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/lib\/require.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/coffee\/views\/SizingView.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/coffee\/views\/SizingView.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/views\/SizingView.js",
+      "outputStyle" : 0,
+      "fileType" : 32
     },
     "\/js\/lib\/serenade.js" : {
       "ignoreWasSetByUser" : 0,
@@ -158,6 +182,17 @@
       "outputAbbreviatedPath" : "\/js\/app\/main.js",
       "outputStyle" : 0,
       "fileType" : 32
+    },
+    "\/js\/app\/app.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/app.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/app-ck.js",
+      "fileType" : 64
     },
     "\/js\/lib\/text.js" : {
       "ignoreWasSetByUser" : 0,
@@ -346,5 +381,11 @@
     "lessDebugStyle" : 0,
     "javascriptAutoOutputPathRelativePath" : "",
     "slimAutoOutputPathStyle" : 0
+  },
+  "projectAttributes" : {
+    "bourbonEnabled" : 0,
+    "displayValue" : "logic-grid",
+    "displayValueWasSetByUser" : 1,
+    "compassEnabled" : 0
   }
 }
