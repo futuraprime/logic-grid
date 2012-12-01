@@ -1,6 +1,21 @@
 define ['serenade'], (Serenade) ->
 	class SizingController
+		min : 2
+		max : 8
+
 		constructor : (@model) ->
-		changed : ->
+
+		changed : (a) ->
 			target = event.target
-			console.log "changed!", target.getAttribute('name'), target.value
+			@model.set target.getAttribute('name'), @_rangeCheck +target.value
+			console.log "changed!", target.getAttribute('name'), @_rangeCheck target.value
+			console.log a
+
+		_rangeCheck : (value) ->
+			if value < @min
+				@min
+			else if value > @max
+				@max
+			else
+				value
+

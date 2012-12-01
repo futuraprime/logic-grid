@@ -13,4 +13,3 @@ require.config
 
 require ['app/app'], (App) ->
 	a = new App()
-
