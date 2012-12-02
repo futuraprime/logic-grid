@@ -3,9 +3,9 @@ define [
 	'serenade',
 	'app/models/Group',
 	'app/controllers/SizingController',
-	'app/views/SizingView',
-	'app/views/GridView'
-], (_, Serenade, Group, SizingController, SizingView, GridView) ->
+	'app/controllers/GridController',
+	'app/views/Views'
+], (_, Serenade, Group, SizingController, GridController, Views) ->
 	class App extends Serenade.Model
 		@hasMany 'groups'
 			as: -> Group
@@ -45,9 +45,9 @@ define [
 			@numGroups = 2
 			@itemsPerGroup = 2
 
-			@sizing = SizingView.render @, SizingController
+			@sizing = Serenade.render 'SizingView', @, SizingController
 			@element.appendChild @sizing
 
-			@grid = GridView.render @
+			@grid = Serenade.render 'GridView', @, GridController
 			@element.appendChild @grid
 
