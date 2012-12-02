@@ -1,11 +1,12 @@
 define [
 	'underscore',
+	'jquery',
 	'serenade',
 	'app/models/Group',
 	'app/controllers/SizingController',
 	'app/controllers/GridController',
 	'app/views/Views'
-], (_, Serenade, Group, SizingController, GridController, Views) ->
+], (_, $, Serenade, Group, SizingController, GridController, Views) ->
 	class App extends Serenade.Model
 		@hasMany 'groups'
 			as: -> Group
