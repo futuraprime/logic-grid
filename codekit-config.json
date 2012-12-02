@@ -37,16 +37,17 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/js\/app\/views\/SizingView.js" : {
+    "\/scss\/_titles.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/views\/SizingView.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/SizingView-ck.js",
-      "fileType" : 64
+      "inputAbbreviatedPath" : "\/scss\/_titles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_titles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/coffee\/main.coffee" : {
       "ignoreWasSetByUser" : 0,
@@ -60,17 +61,16 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/scss\/_titles.scss" : {
+    "\/js\/app\/views\/SizingView.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_titles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_titles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
+      "inputAbbreviatedPath" : "\/js\/app\/views\/SizingView.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/views\/SizingView-ck.js",
+      "fileType" : 64
     },
     "\/js\/app\/models\/Item.js" : {
       "ignoreWasSetByUser" : 0,
@@ -81,17 +81,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Item-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/app\/views\/GridView.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/controllers\/SizingController.js" : {
@@ -114,6 +103,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/app\/views\/GridView.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/controllers\/ItemTitleController.js" : {
@@ -158,17 +158,6 @@
       "outputAbbreviatedPath" : "\/js\/app\/views\/Views-ck.js",
       "fileType" : 64
     },
-    "\/js\/app\/controllers\/GridController.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/controllers\/GridController.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/controllers\/GridController-ck.js",
-      "fileType" : 64
-    },
     "\/js\/app\/models\/Group.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -178,6 +167,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Group-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/app\/controllers\/GridController.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/controllers\/GridController.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/GridController-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/app.js" : {

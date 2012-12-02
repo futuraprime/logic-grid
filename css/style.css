@@ -1,20 +1,26 @@
 #grid {
-  border-collapse: collapse; }
+  border-collapse: collapse;
+  table-layout: fixed; }
+  #grid td {
+    padding: 0; }
 
 input.item-title {
   border: 0;
   outline: 0;
   text-align: right;
-  width: 10em;
-  height: 1em; }
+  width: 8em;
+  height: 1.5em; }
   input.item-title:focus {
     color: blue;
     outline: 0; }
   input.item-title.top {
-    -webkit-transform: rotate(90deg); }
+    -webkit-transform: rotate(90deg);
+    position: absolute;
+    left: -3em; }
 
 td.item-container {
   border: 1px solid black; }
   td.item-container.top {
-    height: 10em;
-    width: 1em; }
+    height: 8em;
+    width: 1.5em;
+    position: relative; }
