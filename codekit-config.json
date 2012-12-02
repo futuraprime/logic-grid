@@ -2,6 +2,18 @@
   "CodeKitInfo" : "This is a CodeKit project configuration file. It is designed to sync project settings across multiple machines. Modifying the contents of this file can be a poor life decision if you don't know what you're doing. This file is not useful unless accompanied by the project that created it in CodeKit. For more information, see: http:\/\/incident57.com\/codekit",
   "creatorBuild" : "7978",
   "files" : {
+    "\/js\/coffee\/controllers\/ItemTitleController.coffee" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/coffee\/controllers\/ItemTitleController.coffee",
+      "checkOutputStyle" : 0,
+      "minifyOutput" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController.js",
+      "outputStyle" : 0,
+      "fileType" : 32
+    },
     "\/js\/app\/models\/Link.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -48,6 +60,18 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
+    "\/scss\/_titles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_titles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_titles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/app\/models\/Item.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -57,6 +81,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Item-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/app\/views\/GridView.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/controllers\/SizingController.js" : {
@@ -81,16 +116,25 @@
       "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
       "fileType" : 64
     },
-    "\/js\/app\/views\/GridView.js" : {
+    "\/js\/app\/controllers\/ItemTitleController.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
+      "inputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController-ck.js",
       "fileType" : 64
+    },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
     },
     "\/js\/lib\/underscore-min.js" : {
       "ignoreWasSetByUser" : 0,
@@ -114,17 +158,6 @@
       "outputAbbreviatedPath" : "\/js\/app\/views\/Views-ck.js",
       "fileType" : 64
     },
-    "\/js\/app\/models\/Group.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/models\/Group.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/models\/Group-ck.js",
-      "fileType" : 64
-    },
     "\/js\/app\/controllers\/GridController.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -134,6 +167,17 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/controllers\/GridController-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/app\/models\/Group.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/models\/Group.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/models\/Group-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/app.js" : {
@@ -146,6 +190,18 @@
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/app-ck.js",
       "fileType" : 64
+    },
+    "\/scss\/style.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/style.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/style.css",
+      "fileType" : 4,
+      "debugStyle" : 0
     },
     "\/js\/app\/main.js" : {
       "ignoreWasSetByUser" : 0,
@@ -287,7 +343,7 @@
     "hamlOutputFormat" : 2,
     "stylusAutoOutputPathReplace1" : "stylus",
     "lessStrictImports" : 0,
-    "sassAutoOutputPathStyle" : 1,
+    "sassAutoOutputPathStyle" : 3,
     "stylusAutoOutputPathReplace2" : "css",
     "lessAutoOutputPathStyle" : 2,
     "genericWebpageFileExtensionsString" : "html, xhtml, htm, shtml, shtm, php, jsp, asp, aspx, erb, ctp",
@@ -316,7 +372,7 @@
     "coffeeCheckOutputStyle" : 0,
     "slimOutputStyle" : 1,
     "javascriptSyntaxCheckerStyle" : 0,
-    "sassAutoOutputPathReplace1" : "sass",
+    "sassAutoOutputPathReplace1" : "scss",
     "slimAutoOutputPathReplace1" : "",
     "sassOutputStyle" : 0,
     "coffeeAutoOutputPathRelativePath" : "",

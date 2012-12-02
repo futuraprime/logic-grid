@@ -1,8 +1,5 @@
 table#grid
 	thead
-		tr
-			td
-			- collection @topGroups
-				- view "GroupTitlesTop"
+		- view "GroupTitlesTop"
 		- collection @sideGroups
 			- view "GroupTitlesSide"

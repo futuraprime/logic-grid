@@ -5,8 +5,17 @@ define [
 	'app/models/Group',
 	'app/controllers/SizingController',
 	'app/controllers/GridController',
+	'app/controllers/ItemTitleController'
 	'app/views/Views'
-], (_, $, Serenade, Group, SizingController, GridController, Views) ->
+], (_,
+	$,
+	Serenade,
+	Group,
+	SizingController,
+	GridController,
+	ItemTitleController,
+	Views
+) ->
 	class App extends Serenade.Model
 		@hasMany 'groups'
 			as: -> Group

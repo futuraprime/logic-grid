@@ -1,4 +1,5 @@
 div
 	- collection @items
 		tr
-			td @name
+			td.side.item-container
+				input.side.item-title[event:change=changed value=@name name="name"]

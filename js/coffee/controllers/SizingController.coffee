@@ -8,8 +8,6 @@ define ['serenade'], (Serenade) ->
 		changed : (a) ->
 			target = event.target
 			@model.set target.getAttribute('name'), @_rangeCheck +target.value
-			console.log "changed!", target.getAttribute('name'), @_rangeCheck target.value
-			console.log a
 
 		_rangeCheck : (value) ->
 			if value < @min

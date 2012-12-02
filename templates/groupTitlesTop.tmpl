@@ -1,4 +1,6 @@
-div
-	- collection @items
-		td
-			div.topTitleTurn @name
+tr
+	td
+	- collection @topGroups
+		- collection @items
+			td.top.item-container
+				input.top.item-title[event:change=changed value=@name name="name"]

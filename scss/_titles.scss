@@ -1,0 +1,28 @@
+$input-width: 10em;
+$input-height: 1em;
+
+input.item-title {
+	border: 0;
+	outline: 0;
+	text-align: right;
+	width: $input-width;
+	height: $input-height;
+
+	&:focus {
+		color: blue;
+		outline: 0;
+	}
+
+	&.top {
+		-webkit-transform: rotate(90deg);
+	}
+}
+
+td.item-container {
+	border: 1px solid black;
+
+	&.top {
+		height: $input-width;
+		width: $input-height;
+	}
+}
