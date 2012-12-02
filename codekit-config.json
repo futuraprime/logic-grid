@@ -70,18 +70,6 @@
       "outputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController-ck.js",
       "fileType" : 64
     },
-    "\/js\/coffee\/views\/SizingView.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/coffee\/views\/SizingView.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/SizingView.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
     "\/js\/lib\/require.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -235,18 +223,6 @@
       "checkOutputStyle" : 0,
       "minifyOutput" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Link.js",
-      "outputStyle" : 0,
-      "fileType" : 32
-    },
-    "\/js\/coffee\/views\/GridView.coffee" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/coffee\/views\/GridView.coffee",
-      "checkOutputStyle" : 0,
-      "minifyOutput" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
       "outputStyle" : 0,
       "fileType" : 32
     },
