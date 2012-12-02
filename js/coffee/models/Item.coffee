@@ -3,4 +3,3 @@ define ['serenade'], (Serenade) ->
 		@property 'name'
 
 		constructor : ->
-			@name = 'new item'

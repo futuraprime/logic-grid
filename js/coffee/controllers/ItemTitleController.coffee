@@ -5,7 +5,7 @@ define ['serenade'], (Serenade) ->
 
 		changed : (item) ->
 			target = event.target
-			@model.set target.getAttribute('name'), target.value
+			item.set target.getAttribute('name'), target.value
 
 	Serenade.controller 'GroupTitlesSide', ItemTitleController
 	Serenade.controller 'GroupTitlesTop', ItemTitleController
