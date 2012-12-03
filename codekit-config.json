@@ -37,18 +37,6 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
-    "\/scss\/_titles.scss" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/scss\/_titles.scss",
-      "outputStyle" : 0,
-      "shouldRunBless" : 0,
-      "outputAbbreviatedPath" : "\/css\/_titles.css",
-      "fileType" : 4,
-      "debugStyle" : 0
-    },
     "\/js\/app\/views\/SizingView.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -72,6 +60,18 @@
       "outputStyle" : 0,
       "fileType" : 32
     },
+    "\/scss\/_titles.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_titles.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_titles.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/app\/models\/Item.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -81,28 +81,6 @@
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
       "outputAbbreviatedPath" : "\/js\/app\/models\/Item-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/app\/views\/GridView.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
-      "fileType" : 64
-    },
-    "\/js\/lib\/require.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/lib\/require.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 1,
-      "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
       "fileType" : 64
     },
     "\/js\/app\/controllers\/SizingController.js" : {
@@ -116,6 +94,40 @@
       "outputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController-ck.js",
       "fileType" : 64
     },
+    "\/js\/lib\/require.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 0,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/lib\/require.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 1,
+      "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
+      "fileType" : 64
+    },
+    "\/js\/app\/views\/GridView.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
+      "fileType" : 64
+    },
+    "\/scss\/_typography.scss" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/scss\/_typography.scss",
+      "outputStyle" : 0,
+      "shouldRunBless" : 0,
+      "outputAbbreviatedPath" : "\/css\/_typography.css",
+      "fileType" : 4,
+      "debugStyle" : 0
+    },
     "\/js\/app\/controllers\/ItemTitleController.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -127,6 +139,15 @@
       "outputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController-ck.js",
       "fileType" : 64
     },
+    "\/css\/style.css" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/css\/style.css",
+      "outputAbbreviatedPath" : "No Output Path",
+      "fileType" : 16
+    },
     "\/js\/lib\/underscore-min.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 0,
@@ -137,15 +158,6 @@
       "syntaxCheckerStyle" : 1,
       "outputAbbreviatedPath" : "\/js\/lib\/underscore-min-ck.js",
       "fileType" : 64
-    },
-    "\/css\/style.css" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/css\/style.css",
-      "outputAbbreviatedPath" : "No Output Path",
-      "fileType" : 16
     },
     "\/js\/app\/views\/Views.js" : {
       "ignoreWasSetByUser" : 0,

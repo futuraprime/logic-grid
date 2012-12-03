@@ -1,3 +1,7 @@
+body, input, select, textarea {
+  font-size: 16px;
+  font-family: Helvetica, sans-serif; }
+
 #grid {
   border-collapse: collapse;
   table-layout: fixed; }
@@ -9,14 +13,16 @@ input.item-title {
   outline: 0;
   text-align: right;
   width: 8em;
-  height: 1.5em; }
+  height: 1.5em;
+  background: none; }
   input.item-title:focus {
     color: blue;
     outline: 0; }
   input.item-title.top {
     -webkit-transform: rotate(90deg);
     position: absolute;
-    left: -3em; }
+    left: -3.33em;
+    bottom: 3.33em; }
 
 td.item-container {
   border: 1px solid black; }
