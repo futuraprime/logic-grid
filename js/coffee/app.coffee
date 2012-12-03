@@ -38,11 +38,15 @@ define [
 				@sideGroups = @groups.slice 0, value-1
 
 				@attributes.numGroups = value
+
+				@update()
 				value
  		@property 'itemsPerGroup',
  			set : (value) ->
  				group.numItems = value for group in @groups
  				@attributes.itemsPerGroup = value
+
+ 				@update()
  				value
 		@localStorage = true
 
@@ -64,3 +68,5 @@ define [
 			@grid = Serenade.render 'GridView', @, GridController
 			@element.appendChild @grid
 
+		update : ->
+			group.updateLinks(@groups) for group in @groups

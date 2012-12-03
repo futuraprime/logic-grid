@@ -1,12 +1,4 @@
 @import 'typography';
 
-#grid {
-	border-collapse: collapse;
-	table-layout: fixed;
-
-	td {
-		padding: 0;
-	}
-}
-
+@import 'grid';
 @import 'titles';
