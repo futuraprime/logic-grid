@@ -15,8 +15,6 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 		constructor : (@numItems) ->
 
 		updateLinks: (groups) ->
-			console.log 'groups', @, groups, groups[0] != @
 			otherGroups = (group for group in groups when group != @)
-			console.log 'other Groups', otherGroups
 
 			item.updateLinks(otherGroups) for item in @items

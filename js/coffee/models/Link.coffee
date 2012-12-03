@@ -6,8 +6,9 @@ define ['serenade', 'app/models/item'], (Serenade, Item) ->
 			as : (-> Item)
 
 		constructor : (item1, item2) ->
-			@items[0] = item1
-			@items[1] = item2
+			@items.push(item1)
+			@items.push(item2)
 
 		otherItem : (item) ->
-			[i for i in @items if i is not item][0]
+			(i for i in @items when i isnt item)[0]
+

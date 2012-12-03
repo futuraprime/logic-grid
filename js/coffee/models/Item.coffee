@@ -12,7 +12,6 @@ define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 		constructor : ->
 
 		updateLinks : (groups) ->
-			console.log 'groups from Item', groups
 			# console.log 'link', @links
 
 			for group in groups
@@ -22,7 +21,8 @@ define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 						@setLink item
 
 		setLink : (item) ->
-			console.log 'linked', @linked
+			console.log 'linked', @links, @linked, @, @ in @linked, item in @linked
 			if @ in item.linked
+				console.log 'we are linked'
 				return
 			@links.push new Link(@, item)
