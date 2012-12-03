@@ -3,3 +3,5 @@ tbody
 		tr
 			td.side.item-container
 				input.side.item-title[event:change=changed value=@name name="name" placeholder="new item"]
+			- collection @links
+				td "foo"

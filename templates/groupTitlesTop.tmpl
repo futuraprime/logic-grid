@@ -1,6 +1,7 @@
-tr
-	td
-	- collection @topGroups
-		- collection @items
-			td.top.item-container
-				input.top.item-title[event:change=changed value=@name name="name" placeholder="new item"]
+thead
+	tr
+		td
+		- collection @topGroups
+			- collection @items
+				td.top.item-container
+					input.top.item-title[event:change=changed value=@name name="name" placeholder="new item"]

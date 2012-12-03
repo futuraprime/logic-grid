@@ -12,12 +12,11 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 		@hasMany 'items', 
 			as : -> Item
 			inverseOf : 'group'
-			serialize : true
 
 		constructor : (@numItems) ->
 
 		updateLinks: (groups) ->
 			otherGroups = (group for group in groups when group != @)
 
-			# for group in otherGroups
-			# 	item.updateLinks(group) for item in @items
+			for group in otherGroups
+				item.updateLinks(group) for item in @items
