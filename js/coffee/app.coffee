@@ -27,7 +27,6 @@ define [
 
 		@property 'numGroups',
 			set : (value) ->
-				console.log "setting numGroups", value
 				len = @groups.length
 				if value > len
 					@groups.push new Group(@itemsPerGroup) for n in [len..(value-1)]
@@ -56,11 +55,9 @@ define [
 			window.Serenade = Serenade
 			@element = document.getElementById 'interactive'
 
-			@groups = []
-
 			# defaults
-			@numGroups = 2
 			@itemsPerGroup = 2
+			@numGroups = 2
 
 			@sizing = Serenade.render 'SizingView', @, SizingController
 			@element.appendChild @sizing

@@ -1,27 +1,26 @@
 define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 	class Item extends Serenade.Model
 		@property 'name'
+		@belongsTo 'group'
+			inverseOf: 'items'
 		@hasMany 'links'
-			inverseOf: 'item'
-			as : (-> Link)
-			serialize: true
+			inverseOf: 'items'
+			as : -> Link
 		@property 'linked',
 			get: ->
 				link.otherItem(@) for link in @links
 
 		constructor : ->
 
-		updateLinks : (groups) ->
-			# console.log 'link', @links
+		updateLinks : (group) ->
+			console.log 'item', @, 'group', group
 
-			for group in groups
-				# console.log 'group', group
-				if group.items
-					for item in group.items
-						@setLink item
+			if group.items
+				for item in group.items
+					@setLink item
 
 		setLink : (item) ->
-			console.log 'linked', @links, @linked, @, @ in @linked, item in @linked
+
 			if @ in item.linked
 				console.log 'we are linked'
 				return

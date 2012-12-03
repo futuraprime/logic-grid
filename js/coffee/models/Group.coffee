@@ -2,14 +2,16 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 	class Group extends Serenade.Model
 		@property 'numItems',
 			set : (value) ->
-				console.log "setting items on stuff", value
 				len = @items.length
 				if value > len
 					@items.push new Item for n in [len..(value-1)]
-				if value < len
-					@items = @items.splice 0, value
+				#if value < len
+				# I think this is a bug in Serenade, but until I can confirm that...
+				# we can just trim what shouldn't be there anyway.
+				@items = @items.splice 0, value
 		@hasMany 'items', 
-			as : (-> Comment)
+			as : -> Item
+			inverseOf : 'group'
 			serialize : true
 
 		constructor : (@numItems) ->
@@ -17,4 +19,5 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 		updateLinks: (groups) ->
 			otherGroups = (group for group in groups when group != @)
 
-			item.updateLinks(otherGroups) for item in @items
+			# for group in otherGroups
+			# 	item.updateLinks(group) for item in @items
