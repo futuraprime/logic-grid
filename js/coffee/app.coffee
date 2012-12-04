@@ -53,6 +53,7 @@ define [
 			console.log "starting up"
 			window.app = @
 			window.Serenade = Serenade
+			window.linksBuilt = 0
 			@element = document.getElementById 'interactive'
 
 			# defaults

@@ -83,15 +83,15 @@
       "outputAbbreviatedPath" : "\/js\/app\/models\/Item-ck.js",
       "fileType" : 64
     },
-    "\/js\/app\/views\/GridView.js" : {
+    "\/js\/app\/controllers\/SizingController.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
+      "inputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController-ck.js",
       "fileType" : 64
     },
     "\/js\/lib\/require.js" : {
@@ -105,15 +105,15 @@
       "outputAbbreviatedPath" : "\/js\/lib\/require-ck.js",
       "fileType" : 64
     },
-    "\/js\/app\/controllers\/SizingController.js" : {
+    "\/js\/app\/views\/GridView.js" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
       "hidden" : 0,
       "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController.js",
+      "inputAbbreviatedPath" : "\/js\/app\/views\/GridView.js",
       "outputStyle" : 1,
       "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/controllers\/SizingController-ck.js",
+      "outputAbbreviatedPath" : "\/js\/app\/views\/GridView-ck.js",
       "fileType" : 64
     },
     "\/scss\/_typography.scss" : {
@@ -128,17 +128,6 @@
       "fileType" : 4,
       "debugStyle" : 0
     },
-    "\/js\/app\/controllers\/ItemTitleController.js" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 1,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController.js",
-      "outputStyle" : 1,
-      "syntaxCheckerStyle" : 0,
-      "outputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController-ck.js",
-      "fileType" : 64
-    },
     "\/scss\/_grid.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -150,6 +139,17 @@
       "outputAbbreviatedPath" : "\/css\/_grid.css",
       "fileType" : 4,
       "debugStyle" : 0
+    },
+    "\/js\/app\/controllers\/ItemTitleController.js" : {
+      "ignoreWasSetByUser" : 0,
+      "ignore" : 1,
+      "hidden" : 0,
+      "outputPathIsSetByUser" : 0,
+      "inputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController.js",
+      "outputStyle" : 1,
+      "syntaxCheckerStyle" : 0,
+      "outputAbbreviatedPath" : "\/js\/app\/controllers\/ItemTitleController-ck.js",
+      "fileType" : 64
     },
     "\/css\/style.css" : {
       "ignoreWasSetByUser" : 0,

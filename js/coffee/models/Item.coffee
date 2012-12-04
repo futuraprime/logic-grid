@@ -23,6 +23,7 @@ define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 		setLink : (item) ->
 			# console.log 'setting link between', @, item
 			if @ in item.linked
-				# console.log 'we are linked'
+				console.log 'we are linked'
 				return
 			@links.push new Link(@, item)
+			window.linksBuilt += 1
