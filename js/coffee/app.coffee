@@ -54,6 +54,7 @@ define [
 			window.app = @
 			window.Serenade = Serenade
 			window.linksBuilt = 0
+			window.itemIdTicker = 0
 			@element = document.getElementById 'interactive'
 
 			# defaults

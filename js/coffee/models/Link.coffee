@@ -16,5 +16,10 @@ define ['serenade', 'app/models/item'], (Serenade, Item) ->
 
 		otherItem : (item) ->
 			# console.log 'otherItem', @, item, @ == item, (i for i in @items when i isnt item)
-			(i for i in @items when i isnt item)[0]
+			if item is @primaryItem
+				@primaryItem
+			else if item is @secondaryItem
+				@secondaryItem
+			else
+				false
 
