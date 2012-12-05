@@ -24,6 +24,9 @@ define [
 			dependsOn : 'groups'
 		@collection 'sideGroups'
 			dependsOn : 'groups'
+		@hasMany 'links'
+			as: -> Link
+			serialize: true
 
 		@property 'numGroups',
 			set : (value) ->
@@ -55,6 +58,7 @@ define [
 			window.Serenade = Serenade
 			window.linksBuilt = 0
 			window.itemIdTicker = 0
+			window.groupIdTicker = 0
 			@element = document.getElementById 'interactive'
 
 			# defaults
@@ -68,4 +72,8 @@ define [
 			@element.appendChild @grid
 
 		update : ->
-			group.updateLinks(@groups) for group in @groups
+			for sideGroup in @sideGroups
+				for topGroup in @topGroups
+					if sideGroup == topGroup then break
+					# now we have only the groups that haven't been linked!
+					sideGroup.createLinks topGroup

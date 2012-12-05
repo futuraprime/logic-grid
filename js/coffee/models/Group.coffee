@@ -15,9 +15,10 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 			# inverseOf : 'group' 
 
 		constructor : (@numItems) ->
+			@id = ++groupIdTicker
 
-		updateLinks: (groups) ->
-			otherGroups = (group for group in groups when group != @)
-
-			for group in otherGroups
-				item.updateLinks(group) for item in @items
+		createLinks : (group) ->
+			links = []
+			for item in @items
+				for i in group.items
+					item.createLink i

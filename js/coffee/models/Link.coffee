@@ -5,13 +5,14 @@ define ['serenade', 'app/models/item'], (Serenade, Item) ->
 			inverseOf : 'links'
 			serialize: true
 		@belongsTo 'secondaryItem',
-			inverseOf : 'links'
+			# inverseOf : 'links'
 			serialize: true
 		@property 'items',
 			get : ->
 				return [@primaryItem, @secondaryItem]
 
 		constructor : (@primaryItem, @secondaryItem) ->
+			++linksBuilt
 			# console.log 'created link between', item1, item2, @items
 
 		otherItem : (item) ->

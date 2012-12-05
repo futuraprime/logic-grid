@@ -14,16 +14,6 @@ define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 		constructor : ->
 			@id = ++itemIdTicker
 
-		updateLinks : (group) ->
-			if group.items
-				for item in group.items
-					@setLink item
-
-		setLink : (item) ->
-			console.log 'setting link between', @.id, item.id, (i.id for i in item.linked), @
-			if @ in item.linked
-				console.log 'we are linked'
-				return
+		createLink : (item) ->
+			console.log 'linking', @.id, 'and', item.id
 			@links.push new Link @, item
-
-			window.linksBuilt += 1
