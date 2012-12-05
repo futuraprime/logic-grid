@@ -33,7 +33,7 @@ define [
 				if value < len
 					@groups = @groups.splice 0, value
 
-				@topGroups = @groups.slice 1, value
+				@topGroups = @groups.slice(1, value).reverse()
 				@sideGroups = @groups.slice 0, value-1
 
 				@attributes.numGroups = value
