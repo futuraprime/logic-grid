@@ -4,6 +4,7 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 			set : (value) ->
 				len = @items.length
 				if value > len
+					console.log 'pushing new items!!!'
 					@items.push new Item for n in [len..(value-1)]
 				if value < len
 					@items = @items.splice 0, value

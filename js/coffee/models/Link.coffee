@@ -1,9 +1,9 @@
 define ['serenade', 'app/models/item'], (Serenade, Item) ->
 	class Link extends Serenade.Model
 		@property 'valid'
-		@belongsTo 'primaryItem',
+		@property 'primaryItem',
 			serialize: true
-		@belongsTo 'secondaryItem',
+		@property 'secondaryItem',
 			serialize: true
 		@property 'items',
 			get : ->
