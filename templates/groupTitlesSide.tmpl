@@ -2,6 +2,6 @@ tbody
 	- collection @items
 		tr
 			td.side.item-container
-				input.side.item-title[event:change=changed value=@name name="name" placeholder="new item"]
+				input.side.item-title[event:change=changed value=@id name="name" placeholder="new item"]
 			- collection @links
-				td "foo"
+				td "[" @primaryItemId "," @secondaryItemId "]"

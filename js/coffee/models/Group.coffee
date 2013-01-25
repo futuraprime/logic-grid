@@ -20,5 +20,8 @@ define ['serenade', 'app/models/Item'], (Serenade, Item) ->
 		createLinks : (group) ->
 			links = []
 			for item in @items
+				console.log 'iterating primary items', item.id
 				for i in group.items
+					console.log 'iterating secondary items', i.id
 					item.createLink i
+				# console.log item.id, item, ("[#{link.primaryItemId}, #{link.secondaryItemId}]" for link in item.links)

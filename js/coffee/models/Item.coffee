@@ -1,7 +1,7 @@
 define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 	class Item extends Serenade.Model
 		@property 'name'
-		# @property 'id'
+		@property 'id'
 		@belongsTo 'group'
 			inverseOf: 'items'
 		@hasMany 'links'
@@ -16,4 +16,6 @@ define ['serenade', 'app/models/Link'], (Serenade, Link) ->
 
 		createLink : (item) ->
 			console.log 'linking', @.id, 'and', item.id
+			console.log ("[#{link.primaryItemId}, #{link.secondaryItemId}]" for link in @links)
 			@links.push new Link @, item
+			console.log ("[#{link.primaryItemId}, #{link.secondaryItemId}]" for link in @links)

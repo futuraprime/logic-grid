@@ -24,9 +24,6 @@ define [
 			dependsOn : 'groups'
 		@collection 'sideGroups'
 			dependsOn : 'groups'
-		@hasMany 'links'
-			as: -> Link
-			serialize: true
 
 		@property 'numGroups',
 			set : (value) ->

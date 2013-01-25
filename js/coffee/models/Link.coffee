@@ -2,18 +2,22 @@ define ['serenade', 'app/models/item'], (Serenade, Item) ->
 	class Link extends Serenade.Model
 		@property 'valid'
 		@belongsTo 'primaryItem',
-			inverseOf : 'links'
 			serialize: true
 		@belongsTo 'secondaryItem',
-			# inverseOf : 'links'
 			serialize: true
 		@property 'items',
 			get : ->
-				return [@primaryItem, @secondaryItem]
+				[@primaryItem, @secondaryItem]
+		@property 'primaryItemId',
+			get : ->
+				if @primaryItem then @primaryItem.id else ""
+		@property 'secondaryItemId',
+			get : ->
+				if @secondaryItem then @secondaryItem.id else ""
 
 		constructor : (@primaryItem, @secondaryItem) ->
 			++linksBuilt
-			# console.log 'created link between', item1, item2, @items
+			console.log 'created link between', @primaryItem.id, @secondaryItem.id
 
 		otherItem : (item) ->
 			# console.log 'otherItem', @, item, @ == item, (i for i in @items when i isnt item)
@@ -23,4 +27,3 @@ define ['serenade', 'app/models/item'], (Serenade, Item) ->
 				@secondaryItem
 			else
 				false
-
